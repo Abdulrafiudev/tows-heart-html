@@ -565,6 +565,12 @@ body {
   opacity: 0;
   transition: 0.5s;
   cursor: pointer;
+  z-index: 10;
+}
+.selector-container_div__selector___list span {
+  z-index: 5;
+
+  cursor: pointer;
 }
 .selector-container_div__selector___list.active {
   opacity: 1;
@@ -607,6 +613,9 @@ body {
   .selector-container_div a {
     width: 80px;
     text-align: center;
+  }
+  .selector-container_div__selector___list span {
+    margin-bottom: 5px;
   }
 }
 
